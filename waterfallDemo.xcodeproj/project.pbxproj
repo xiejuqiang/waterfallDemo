@@ -12,10 +12,32 @@
 		1837A46617D85825001DB5EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837A46517D85825001DB5EC /* CoreGraphics.framework */; };
 		1837A46C17D85825001DB5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1837A46A17D85825001DB5EC /* InfoPlist.strings */; };
 		1837A46E17D85826001DB5EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A46D17D85826001DB5EC /* main.m */; };
-		1837A47217D85826001DB5EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A47117D85826001DB5EC /* AppDelegate.m */; };
+		1837A47217D85826001DB5EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A47117D85826001DB5EC /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1837A47417D85826001DB5EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837A47317D85826001DB5EC /* Default.png */; };
 		1837A47617D85826001DB5EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837A47517D85826001DB5EC /* Default@2x.png */; };
 		1837A47817D85826001DB5EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837A47717D85826001DB5EC /* Default-568h@2x.png */; };
+		1837A48017D85891001DB5EC /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A47F17D85891001DB5EC /* WaterFallViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1837A48917D85A5D001DB5EC /* TMQuiltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A48417D85A5D001DB5EC /* TMQuiltView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1837A48A17D85A5D001DB5EC /* TMQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A48617D85A5D001DB5EC /* TMQuiltViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1837A48B17D85A5D001DB5EC /* TMQuiltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A48817D85A5D001DB5EC /* TMQuiltViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1837A49717D85A67001DB5EC /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A48D17D85A67001DB5EC /* 1.jpeg */; };
+		1837A49817D85A67001DB5EC /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A48E17D85A67001DB5EC /* 10.jpeg */; };
+		1837A49917D85A67001DB5EC /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A48F17D85A67001DB5EC /* 2.jpeg */; };
+		1837A49A17D85A67001DB5EC /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49017D85A67001DB5EC /* 3.jpeg */; };
+		1837A49B17D85A67001DB5EC /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49117D85A67001DB5EC /* 4.jpeg */; };
+		1837A49C17D85A67001DB5EC /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49217D85A67001DB5EC /* 5.jpeg */; };
+		1837A49D17D85A67001DB5EC /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49317D85A67001DB5EC /* 6.jpeg */; };
+		1837A49E17D85A67001DB5EC /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49417D85A67001DB5EC /* 7.jpeg */; };
+		1837A49F17D85A67001DB5EC /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49517D85A67001DB5EC /* 8.jpeg */; };
+		1837A4A017D85A67001DB5EC /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1837A49617D85A67001DB5EC /* 9.jpeg */; };
+		1837A4A317D85A7F001DB5EC /* TMPhotoQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837A4A217D85A7F001DB5EC /* TMPhotoQuiltViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		183B26E417DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B26E117DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.m */; };
+		183B26E517DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B26E317DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.m */; };
+		183B26E917DDC1E5004CE3C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183B26E817DDC1E5004CE3C0 /* QuartzCore.framework */; };
+		1856C62E17D871060007D8EA /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856C62217D871060007D8EA /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1856C63017D871060007D8EA /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856C62817D871060007D8EA /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1856C63117D871060007D8EA /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856C62A17D871060007D8EA /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1856C63217D871060007D8EA /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856C62D17D871060007D8EA /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +54,41 @@
 		1837A47317D85826001DB5EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1837A47517D85826001DB5EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1837A47717D85826001DB5EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1837A47E17D85891001DB5EC /* WaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
+		1837A47F17D85891001DB5EC /* WaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
+		1837A48217D85A5D001DB5EC /* TMQuiltView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TMQuiltView-Prefix.pch"; sourceTree = "<group>"; };
+		1837A48317D85A5D001DB5EC /* TMQuiltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltView.h; sourceTree = "<group>"; };
+		1837A48417D85A5D001DB5EC /* TMQuiltView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltView.m; sourceTree = "<group>"; };
+		1837A48517D85A5D001DB5EC /* TMQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewCell.h; sourceTree = "<group>"; };
+		1837A48617D85A5D001DB5EC /* TMQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewCell.m; sourceTree = "<group>"; };
+		1837A48717D85A5D001DB5EC /* TMQuiltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewController.h; sourceTree = "<group>"; };
+		1837A48817D85A5D001DB5EC /* TMQuiltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewController.m; sourceTree = "<group>"; };
+		1837A48D17D85A67001DB5EC /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		1837A48E17D85A67001DB5EC /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		1837A48F17D85A67001DB5EC /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		1837A49017D85A67001DB5EC /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		1837A49117D85A67001DB5EC /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		1837A49217D85A67001DB5EC /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		1837A49317D85A67001DB5EC /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		1837A49417D85A67001DB5EC /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		1837A49517D85A67001DB5EC /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		1837A49617D85A67001DB5EC /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		1837A4A117D85A7F001DB5EC /* TMPhotoQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPhotoQuiltViewCell.h; sourceTree = "<group>"; };
+		1837A4A217D85A7F001DB5EC /* TMPhotoQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPhotoQuiltViewCell.m; sourceTree = "<group>"; };
+		183B26DF17DDBDAA004CE3C0 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		183B26E017DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		183B26E117DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		183B26E217DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		183B26E317DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		183B26E817DDC1E5004CE3C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1856C62117D871060007D8EA /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		1856C62217D871060007D8EA /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		1856C62717D871060007D8EA /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		1856C62817D871060007D8EA /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		1856C62917D871060007D8EA /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		1856C62A17D871060007D8EA /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		1856C62C17D871060007D8EA /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		1856C62D17D871060007D8EA /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183B26E917DDC1E5004CE3C0 /* QuartzCore.framework in Frameworks */,
 				1837A46217D85825001DB5EC /* UIKit.framework in Frameworks */,
 				1837A46417D85825001DB5EC /* Foundation.framework in Frameworks */,
 				1837A46617D85825001DB5EC /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +109,7 @@
 		1837A45217D85825001DB5EC = {
 			isa = PBXGroup;
 			children = (
+				183B26E817DDC1E5004CE3C0 /* QuartzCore.framework */,
 				1837A46717D85825001DB5EC /* waterfallDemo */,
 				1837A46017D85825001DB5EC /* Frameworks */,
 				1837A45E17D85825001DB5EC /* Products */,
@@ -78,9 +137,17 @@
 		1837A46717D85825001DB5EC /* waterfallDemo */ = {
 			isa = PBXGroup;
 			children = (
+				183B26DE17DDBDAA004CE3C0 /* SVPullToRefresh */,
+				1856C61F17D871060007D8EA /* EGO */,
+				1837A48C17D85A67001DB5EC /* images */,
+				1837A48117D85A5D001DB5EC /* TMQuiltView */,
 				1837A47017D85826001DB5EC /* AppDelegate.h */,
 				1837A47117D85826001DB5EC /* AppDelegate.m */,
+				1837A4A117D85A7F001DB5EC /* TMPhotoQuiltViewCell.h */,
+				1837A4A217D85A7F001DB5EC /* TMPhotoQuiltViewCell.m */,
 				1837A46817D85825001DB5EC /* Supporting Files */,
+				1837A47E17D85891001DB5EC /* WaterFallViewController.h */,
+				1837A47F17D85891001DB5EC /* WaterFallViewController.m */,
 			);
 			path = waterfallDemo;
 			sourceTree = "<group>";
@@ -97,6 +164,88 @@
 				1837A47717D85826001DB5EC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1837A48117D85A5D001DB5EC /* TMQuiltView */ = {
+			isa = PBXGroup;
+			children = (
+				1837A48217D85A5D001DB5EC /* TMQuiltView-Prefix.pch */,
+				1837A48317D85A5D001DB5EC /* TMQuiltView.h */,
+				1837A48417D85A5D001DB5EC /* TMQuiltView.m */,
+				1837A48517D85A5D001DB5EC /* TMQuiltViewCell.h */,
+				1837A48617D85A5D001DB5EC /* TMQuiltViewCell.m */,
+				1837A48717D85A5D001DB5EC /* TMQuiltViewController.h */,
+				1837A48817D85A5D001DB5EC /* TMQuiltViewController.m */,
+			);
+			path = TMQuiltView;
+			sourceTree = "<group>";
+		};
+		1837A48C17D85A67001DB5EC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1837A48D17D85A67001DB5EC /* 1.jpeg */,
+				1837A48E17D85A67001DB5EC /* 10.jpeg */,
+				1837A48F17D85A67001DB5EC /* 2.jpeg */,
+				1837A49017D85A67001DB5EC /* 3.jpeg */,
+				1837A49117D85A67001DB5EC /* 4.jpeg */,
+				1837A49217D85A67001DB5EC /* 5.jpeg */,
+				1837A49317D85A67001DB5EC /* 6.jpeg */,
+				1837A49417D85A67001DB5EC /* 7.jpeg */,
+				1837A49517D85A67001DB5EC /* 8.jpeg */,
+				1837A49617D85A67001DB5EC /* 9.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		183B26DE17DDBDAA004CE3C0 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				183B26DF17DDBDAA004CE3C0 /* SVPullToRefresh.h */,
+				183B26E017DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.h */,
+				183B26E117DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.m */,
+				183B26E217DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.h */,
+				183B26E317DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		1856C61F17D871060007D8EA /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				1856C62017D871060007D8EA /* EGOCache */,
+				1856C62617D871060007D8EA /* EGOImageLoader */,
+				1856C62B17D871060007D8EA /* EGOImageView */,
+			);
+			path = EGO;
+			sourceTree = "<group>";
+		};
+		1856C62017D871060007D8EA /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				1856C62117D871060007D8EA /* EGOCache.h */,
+				1856C62217D871060007D8EA /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		1856C62617D871060007D8EA /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1856C62717D871060007D8EA /* EGOImageLoadConnection.h */,
+				1856C62817D871060007D8EA /* EGOImageLoadConnection.m */,
+				1856C62917D871060007D8EA /* EGOImageLoader.h */,
+				1856C62A17D871060007D8EA /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		1856C62B17D871060007D8EA /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1856C62C17D871060007D8EA /* EGOImageView.h */,
+				1856C62D17D871060007D8EA /* EGOImageView.m */,
+			);
+			path = EGOImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +303,16 @@
 				1837A47417D85826001DB5EC /* Default.png in Resources */,
 				1837A47617D85826001DB5EC /* Default@2x.png in Resources */,
 				1837A47817D85826001DB5EC /* Default-568h@2x.png in Resources */,
+				1837A49717D85A67001DB5EC /* 1.jpeg in Resources */,
+				1837A49817D85A67001DB5EC /* 10.jpeg in Resources */,
+				1837A49917D85A67001DB5EC /* 2.jpeg in Resources */,
+				1837A49A17D85A67001DB5EC /* 3.jpeg in Resources */,
+				1837A49B17D85A67001DB5EC /* 4.jpeg in Resources */,
+				1837A49C17D85A67001DB5EC /* 5.jpeg in Resources */,
+				1837A49D17D85A67001DB5EC /* 6.jpeg in Resources */,
+				1837A49E17D85A67001DB5EC /* 7.jpeg in Resources */,
+				1837A49F17D85A67001DB5EC /* 8.jpeg in Resources */,
+				1837A4A017D85A67001DB5EC /* 9.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +325,17 @@
 			files = (
 				1837A46E17D85826001DB5EC /* main.m in Sources */,
 				1837A47217D85826001DB5EC /* AppDelegate.m in Sources */,
+				1837A48017D85891001DB5EC /* WaterFallViewController.m in Sources */,
+				1837A48917D85A5D001DB5EC /* TMQuiltView.m in Sources */,
+				1837A48A17D85A5D001DB5EC /* TMQuiltViewCell.m in Sources */,
+				1837A48B17D85A5D001DB5EC /* TMQuiltViewController.m in Sources */,
+				1837A4A317D85A7F001DB5EC /* TMPhotoQuiltViewCell.m in Sources */,
+				1856C62E17D871060007D8EA /* EGOCache.m in Sources */,
+				1856C63017D871060007D8EA /* EGOImageLoadConnection.m in Sources */,
+				1856C63117D871060007D8EA /* EGOImageLoader.m in Sources */,
+				1856C63217D871060007D8EA /* EGOImageView.m in Sources */,
+				183B26E417DDBDAA004CE3C0 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				183B26E517DDBDAA004CE3C0 /* UIScrollView+SVPullToRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +404,8 @@
 		1837A47C17D85826001DB5EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "waterfallDemo/waterfallDemo-Prefix.pch";
 				INFOPLIST_FILE = "waterfallDemo/waterfallDemo-Info.plist";
@@ -245,6 +417,8 @@
 		1837A47D17D85826001DB5EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "waterfallDemo/waterfallDemo-Prefix.pch";
 				INFOPLIST_FILE = "waterfallDemo/waterfallDemo-Info.plist";
@@ -272,6 +446,7 @@
 				1837A47D17D85826001DB5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

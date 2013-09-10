@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WaterFallViewController.h"
 
 @implementation AppDelegate
 
@@ -20,6 +21,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    WaterFallViewController *waterfallVC = [[WaterFallViewController alloc] init];
+    [self.window addSubview:waterfallVC.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
